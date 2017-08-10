@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -188,8 +187,8 @@
                             <constraint firstItem="FSy-Lx-HuP" firstAttribute="centerY" secondItem="vJS-rQ-PPJ" secondAttribute="centerY" id="JFp-sJ-cz6"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8IA-eb-M9z" secondAttribute="bottom" id="KAd-aS-lvU"/>
                             <constraint firstItem="Jux-AW-NfW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QMh-07-Uba"/>
-                            <constraint firstItem="Jux-AW-NfW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="13" id="SVs-RZ-m60"/>
                             <constraint firstAttribute="trailing" secondItem="aSZ-IW-g0a" secondAttribute="trailing" id="fYx-W1-Ycv"/>
+                            <constraint firstItem="vJS-rQ-PPJ" firstAttribute="top" secondItem="Jux-AW-NfW" secondAttribute="bottom" constant="18.5" id="gce-LR-6VL"/>
                             <constraint firstItem="88s-zP-aeR" firstAttribute="centerY" secondItem="Jux-AW-NfW" secondAttribute="centerY" id="gyQ-PL-hgr"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aSZ-IW-g0a" secondAttribute="bottom" id="jFP-cu-FLo"/>
                             <constraint firstItem="FSy-Lx-HuP" firstAttribute="centerX" secondItem="vJS-rQ-PPJ" secondAttribute="centerX" id="uLw-pd-q8R"/>
