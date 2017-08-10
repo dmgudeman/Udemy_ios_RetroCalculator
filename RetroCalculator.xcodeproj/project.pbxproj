@@ -12,6 +12,8 @@
 		7151F4CA1F3CE48A00FF569C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7151F4C81F3CE48A00FF569C /* Main.storyboard */; };
 		7151F4CC1F3CE48A00FF569C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7151F4CB1F3CE48A00FF569C /* Assets.xcassets */; };
 		7151F4CF1F3CE48A00FF569C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7151F4CD1F3CE48A00FF569C /* LaunchScreen.storyboard */; };
+		7151F4D71F3D054900FF569C /* MANIC MINER.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7151F4D61F3D054900FF569C /* MANIC MINER.ttf */; };
+		7151F4D91F3D075200FF569C /* Pixel-Miners.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7151F4D81F3D075200FF569C /* Pixel-Miners.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7151F4CB1F3CE48A00FF569C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7151F4CE1F3CE48A00FF569C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7151F4D01F3CE48A00FF569C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7151F4D61F3D054900FF569C /* MANIC MINER.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MANIC MINER.ttf"; sourceTree = "<group>"; };
+		7151F4D81F3D075200FF569C /* Pixel-Miners.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pixel-Miners.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		7151F4C31F3CE48A00FF569C /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				7151F4D81F3D075200FF569C /* Pixel-Miners.otf */,
+				7151F4D61F3D054900FF569C /* MANIC MINER.ttf */,
 				7151F4C41F3CE48A00FF569C /* AppDelegate.swift */,
 				7151F4C61F3CE48A00FF569C /* ViewController.swift */,
 				7151F4C81F3CE48A00FF569C /* Main.storyboard */,
@@ -123,8 +129,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7151F4D91F3D075200FF569C /* Pixel-Miners.otf in Resources */,
 				7151F4CF1F3CE48A00FF569C /* LaunchScreen.storyboard in Resources */,
 				7151F4CC1F3CE48A00FF569C /* Assets.xcassets in Resources */,
+				7151F4D71F3D054900FF569C /* MANIC MINER.ttf in Resources */,
 				7151F4CA1F3CE48A00FF569C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
