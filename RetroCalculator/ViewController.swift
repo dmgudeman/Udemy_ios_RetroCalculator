@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     case Subtract = "-"
     case Add = "+"
     case Empty = "Empty"
+    case Clear = "Clear"
   }
   
   var currentOperation = Operation.Empty
@@ -73,6 +74,11 @@ class ViewController: UIViewController {
   @IBAction func onEqualPressed(sender:AnyObject) {
     processOperation(operation: currentOperation)
   }
+  
+  @IBAction func onClearPressed(sender:AnyObject) {
+    currentOperation = Operation.Clear
+    processOperation(operation: .Clear)
+  }
 
   func processOperation(operation: Operation) {
     playSound()
@@ -89,6 +95,11 @@ class ViewController: UIViewController {
           result = "\(Double(leftValStr)! - Double(rightValStr)!)"
         } else if currentOperation == Operation.Add {
           result = "\(Double(leftValStr)! + Double(rightValStr)!)"
+        } else if currentOperation == Operation.Clear {
+          result = "0"
+          runningNumber = ""
+          print(result)
+        
         }
         leftValStr = result
         outputLbl.text = result
@@ -101,6 +112,8 @@ class ViewController: UIViewController {
       currentOperation = operation
     }
   }
+  
+
 
 
 }
